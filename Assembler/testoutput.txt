@@ -1,0 +1,5 @@
+93 00 a0 00: Bytecode for addi x1, x0, 10
+33 81 10 00: Bytecode for add x2, x1, x1
+83 21 41 00: Bytecode for lw x3, 4(x2)
+a3 a1 80 00: Bytecode for sw x3, 8(x1)
+63 40 10 00: Bytecode for beq x1, x2, main
